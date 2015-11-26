@@ -1,0 +1,31 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+.main-content__section:nth-child(odd) {
+  background: #202020;
+  color: #ddd;
+}
+
+.main-content__section {
+  height: 100vh;
+  padding: 5em 0;
+}
+
+.center-container {
+  display: table;
+  width: 100%;
+}
+
+.center-container__content-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.center-container__content {
+  margin: 0 auto;
+}
+
+.copy-width {
+  max-width: 75vh;
+}
